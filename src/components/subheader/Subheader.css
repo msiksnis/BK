@@ -1,0 +1,35 @@
+.subheader {
+  position: sticky;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgb(244, 245, 245);
+  background-color: white;
+}
+
+.subheader__text {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 340px;
+  margin: 4px 0 0 50px;
+}
+
+.subheader__textfield {
+  font-size: 18px;
+  font-family: "Teko", sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  color: rgb(116, 116, 116);
+}
+
+.subheader__button {
+  border: none;
+  background-color: transparent;
+  margin-left: 10px;
+  font-size: 18px;
+  font-family: "Teko", sans-serif;
+  color: rgba(190, 91, 11, 1);
+  outline: none;
+  cursor: pointer;
+}
