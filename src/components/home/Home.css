@@ -13,12 +13,12 @@
   display: flex;
   align-items: center;
   font-size: 160px;
-  line-height: 140px;
-  font-family: "Teko", sans-serif;
-  color: white;
-  font-weight: 700;
+  line-height: 200px;
+  font-family: "Dosis", sans-serif;
+  color: #f4ebdc;
+  font-weight: 800;
   padding: 250px 0 0 50px;
-  text-shadow: -2px 2px 0 #be5b0e;
+  text-shadow: -2px 2px 0 #d62300;
 }
 
 .home__buttons > button {
@@ -26,11 +26,13 @@
   outline: none;
   height: 50px;
   border-radius: 50px;
-  font-family: "Teko", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 26px;
-  color: rgba(190, 91, 11, 1);
-  font-weight: 500;
+  color: #d62300;
+  font-weight: 800;
   padding: 10px 50px 16px 50px;
+  background-color: #f4ebdc;
+  cursor: pointer;
 }
 
 .home__pickup {
@@ -38,5 +40,5 @@
 }
 
 .home__buttons > button:hover {
-  background-color: #f5e6da;
+  background-color: #f8e0d9;
 }

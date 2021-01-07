@@ -3,8 +3,8 @@
   z-index: 0;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid rgb(244, 245, 245);
-  background-color: white;
+  border-bottom: 2px solid #d6c8b5;
+  background-color: #f4ebdc;
 }
 
 .subheader__text {
@@ -16,20 +16,20 @@
 }
 
 .subheader__textfield {
-  font-size: 18px;
-  font-family: "Teko", sans-serif;
-  font-style: normal;
-  font-weight: lighter;
-  color: rgb(116, 116, 116);
+  font-size: 16px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  color: #6a3f33;
 }
 
 .subheader__button {
   border: none;
   background-color: transparent;
   margin-left: 10px;
-  font-size: 18px;
-  font-family: "Teko", sans-serif;
-  color: rgba(190, 91, 11, 1);
+  font-size: 16px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  color: #d62300;
   outline: none;
   cursor: pointer;
 }

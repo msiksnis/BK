@@ -4,4 +4,7 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 100vw;
+  background-color: #f4ebdc;
+  padding-bottom: 150px;
+  padding-top: 20px;
 }
