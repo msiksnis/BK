@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 670px;
+  /* width: 100%; */
+  background-color: #2c0200;
+}
+
+.footer__info {
+  display: flex;
+}
+
+.footer__bkcInfoSection,
+.footer__myInfoSection,
+.footer__careersSection,
+.footer__bkCaresSection {
+  color: #f4ebdc;
+  font-family: "Dosis", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  margin: 120px 0 0 120px;
+  padding-right: 180px;
+}
+
+.footer__bkcInfoOptions,
+.footer__myInfoOptions,
+.footer__careersOptions,
+.footer__bkCaresOptions {
+  color: #bba391;
+  font-family: "Dosis", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 120px;
+}
+
+.nodecor {
+  text-decoration: none;
+}
+
+.footer__bottom {
+  border-top: 1px solid #f5ebdc;
+  margin: 70px 120px 25px 120px;
+}
+
+.footer__bottomTop {
+  display: flex;
+  justify-content: space-between;
+  color: #f5ebdc;
+  font-family: "Dosis", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  padding-top: 25px;
+}
+
+.footer__bottomBottom {
+  border: none;
+  height: 35px;
+  margin: 0 120px 0 120px;
+}
+
+.footer__terms {
+  display: flex;
+  color: #baa390;
+  font-family: "Dosis", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 7px 0 7px 0;
+}
+
+.footer__terms > hr {
+  margin: 0 10px;
+}
+
+.footer__bottomBottom > p {
+  color: #baa390;
+  font-family: "Dosis", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 7px 0 7px 0;
+}

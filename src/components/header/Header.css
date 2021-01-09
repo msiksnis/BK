@@ -45,7 +45,7 @@
 .header__logo {
   background-color: transparent;
   height: 100px;
-  margin-top: 30px;
+  margin-top: 8px;
 }
 
 .link {
@@ -91,6 +91,7 @@
   margin-left: 15px;
   outline: none;
   cursor: pointer;
+  background-color: #f4ebdc;
 }
 
 .header__cart:hover {

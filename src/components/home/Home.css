@@ -4,8 +4,10 @@
   height: 600px;
   /* margin-top: -107px; */
   position: relative;
-  /* background-image: url("https://cdn.sanity.io/images/czqk28jt/prod_bk_us/51688dac53c68c8e151671ff7d570274b04fbb32-1600x600.png?w=4320&fm=png&q=40&fit=max"); */
-  background-image: url("https://cdn.sanity.io/images/czqk28jt/prod_bk_us/15be2d36d57ef621d443b658b3cd4a8605ce1af0-1600x600.png?w=1600&fm=png&q=40&fit=max");
+  background-image: url("https://cdn.sanity.io/images/czqk28jt/prod_bk_us/51688dac53c68c8e151671ff7d570274b04fbb32-1600x600.png?w=4320&fm=png&q=40&fit=max");
+  /* background-image: url("https://cdn.sanity.io/images/czqk28jt/prod_bk_us/15be2d36d57ef621d443b658b3cd4a8605ce1af0-1600x600.png?w=1600&fm=png&q=40&fit=max"); */
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -13,12 +15,12 @@
   display: flex;
   align-items: center;
   font-size: 160px;
-  line-height: 200px;
+  line-height: 165px;
   font-family: "Dosis", sans-serif;
   color: #f4ebdc;
   font-weight: 800;
-  padding: 250px 0 0 50px;
-  text-shadow: -2px 2px 0 #d62300;
+  padding: 190px 0 0 50px;
+  text-shadow: 0 3px 7px rgb(80, 35, 20);
 }
 
 .home__buttons > button {
@@ -33,6 +35,10 @@
   padding: 10px 50px 16px 50px;
   background-color: #f4ebdc;
   cursor: pointer;
+}
+
+.home__buttons {
+  padding-top: 20px;
 }
 
 .home__pickup {

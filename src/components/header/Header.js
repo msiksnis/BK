@@ -27,7 +27,7 @@ function Header() {
         <Link to="/">
           <img
             className="order header__logo"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Burger_King_logo.svg/1024px-Burger_King_logo.svg.png"
+            src="https://i.ibb.co/MhhDQN5/Burger-king-logo-rebrand-bk-jkr-logo-dezeen-2364-col-0.jpg"
             alt="Logo"
           />
         </Link>
