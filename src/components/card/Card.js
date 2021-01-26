@@ -1,10 +1,10 @@
 import "./Card.css";
 
-function Card({ src, button }) {
+function Card({ src, buttonText }) {
   return (
     <div className="card">
       <img src={src} alt="" />
-      <button className="card__button">{button}</button>
+      <button className="button">{buttonText}</button>
     </div>
   );
 }

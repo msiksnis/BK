@@ -42,6 +42,7 @@
 
 .nodecor {
   text-decoration: none;
+  color: inherit;
 }
 
 .footer__bottom {
@@ -87,4 +88,8 @@
   font-weight: 300;
   font-size: 13px;
   padding: 7px 0 7px 0;
+}
+
+.footer__icons {
+  display: flex;
 }

@@ -12,3 +12,17 @@
   object-fit: fill;
   width: 100%;
 }
+
+.card > button {
+  border: none;
+  outline: none;
+  height: 50px;
+  border-radius: 50px;
+  font-family: "Dosis", sans-serif;
+  font-size: 26px;
+  color: #d62300;
+  font-weight: 800;
+  padding: 10px 50px 16px 50px;
+  background-color: #f4ebdc;
+  cursor: pointer;
+}

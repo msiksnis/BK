@@ -1,0 +1,44 @@
+.aboutUs {
+  background-color: #f3ebdc;
+}
+
+.aboutUs__top {
+  height: 200px;
+  background-color: #4f2416;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f4ebdc;
+  font-family: "Dosis", sans-serif;
+  font-weight: 800;
+}
+
+.aboutUs__bottom {
+  height: 550px;
+  margin: auto;
+  /* width: 730px; */
+  max-width: 730px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Dosis", sans-serif;
+  color: #502316;
+}
+
+.aboutUs__bottom > h1 {
+  margin: 30px 0 10px 0;
+}
+
+.aboutUs__bottom > p {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.aboutUs__bottomLine {
+  height: 25px;
+  background-image: url("https://i.ibb.co/kMk3vRj/Screenshot-2021-01-23-at-13-10-35.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

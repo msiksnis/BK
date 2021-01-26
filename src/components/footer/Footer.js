@@ -18,11 +18,19 @@ function Footer() {
               <br />
               Food Quality
               <br />
-              News & Press
+              <a
+                className="nodecor"
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.rbi.com/English/news/default.aspx"
+              >
+                News & Press
+              </a>
               <br />
               Global Media Contacts
               <br />
               <a
+                className="nodecor"
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.rbi.com/English/investors/investor-home/default.aspx"
@@ -32,7 +40,9 @@ function Footer() {
               <br />
               Franchising
               <br />
-              International Menu
+              International
+              <br />
+              Menu
             </div>
           </div>
 
@@ -88,7 +98,12 @@ function Footer() {
       <div className="footer__bottom">
         <div className="footer__bottomTop">
           <p>BURGER KING</p>
-          <p>ICONS</p>
+          <div className="footer__icons">
+            <div className="footer__instagram">I</div>
+            <div className="footer__facebook">C</div>
+            <div className="footer__youtube">O</div>
+            <div className="footer__twiter">N</div>
+          </div>
         </div>
       </div>
       <div className="footer__bottomBottom">
